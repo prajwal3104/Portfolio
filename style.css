@@ -389,3 +389,12 @@ form .send-btn :hover{
         transition: 0.2s ease;
     }
 }
+
+#preloader{
+    background: rgb(255, 255, 255) url(loader.gif) no-repeat center center;
+    background-size: 70%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
