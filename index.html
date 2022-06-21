@@ -18,6 +18,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
     <body>
+         <!----StartLoder-->
+
+         <div id="preloader"> </div>
 
         <!-----header-->
         <header>
@@ -185,7 +188,14 @@
 
         <!-------Link to js-->
         <script type="text/javascript" src="js/script.js"></script>
-
+        
+        
+       <script>
+            var loader =  document.getElementById("preloader");
+            window.addEventListener("load" ,function(){
+                loader.style.display  = "none";
+        })
+        </script>
 
     </body>
 </html>
